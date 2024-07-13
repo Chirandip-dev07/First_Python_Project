@@ -8,7 +8,7 @@ print("TYPE YOUR GUESS IN SMALL LETTERS ONLY")
 print("GOOD LUCK, GUESS IT AS FAST AS YOU CAN")
 
 words = [ ]
-with open("C:\\Users\\Chirandip\\OneDrive\\Desktop\\Words.txt","r") as f:
+with open("Words.txt","r") as f:
     for line in f:
         words.append(line.strip())
 f.close()
