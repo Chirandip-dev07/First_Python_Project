@@ -1,4 +1,5 @@
 import random
+import time
 
 print("WELCOME TO THE HANGMAN GAME AKA WORD GUESSING GAME")
 print("ONLY 1 LETTER OF THE WORD WILL BE SHOWN INITIALLY AND MORE LETTERS WILL BE SHOWN AS HINTS AS U GUESS IT INCORRECTLY")
@@ -21,6 +22,7 @@ n = Chosen_Length
 print()
 print("Your word has",Chosen_Length,"letters")
 print("THE WORD IS......")
+time.sleep(2)
 print()
 
 list1 = []
